@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #0c1417;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    
+
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.title a {
+
+    font-size: 20px;
+    font-weight: bolder;
+    padding: px;
+
+
+}
+
+.list {
+    display: flex;
+    
+    
+    
+}
+.item a{
+    display: block;
+    padding: 10px 20px;
+}
+
+.item a:hover {
+    color: rgb(204, 204, 204);
+}
+
+.tog {
+    background-color: rgb(212, 212, 46);
+    height: 30px;
+    width: 30px;
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    padding: 6px;
+    margin-right: 50px;
+
+}
+
+.tog p {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.tog:hover {
+    background-color: rgb(243, 243, 162);
+}
+
+
+.cn-1 {
+    width: 100%;
+    height: 400px;
+    background-color: aquamarine;
+    background-image: url("image/sodapdf-converted.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.te {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    color: rgb(207, 255, 252);
+    font-family: "Mr De Haviland", cursive;
+    font-size: 500%;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.cn-2 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(227, 227, 227);
+    padding: 50px 10%;
+    font-size: 150%;
+    text-align: center;
+}
+
+.cn-2 h2 {
+    margin-bottom: 30px;
+
+}
+
+.cn-2 p {
+    margin-bottom: 20px;
+
+}
+
+#bt {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px 100px;
+}
+
+#bt:hover {
+    background-color: rgb(123, 26, 26);
+}
+
+.cn-3 {
+
+    width: 100%;
+    background-color: rgb(244, 247, 246);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.row3 {
+
+    display: flex;
+
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.im3 {
+    flex-basis: 50%;
+
+
+}
+
+.im3o {
+    height: 250px;
+    width: 400px;
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    background-image: url(image/audio1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.tx3 {
+    flex-basis: 50%;
+    padding: 20px;
+    padding-top: 30px;
+
+}
+
+.tx3 p {
+    width: 100%;
+    font-size: 120%;
+}
+
+.cn-4 {
+    padding: 25px;
+    background-color: beige;
+}
+
+.title4 {
+    text-align: center;
+    padding: 25px auto;
+}
+
+.row4fl {
+    display: flex;
+}
+
+.row4 {
+    padding: 20px;
+    text-align: center;
+    flex-basis: 33.33%;
+
+}
+
+.row4 img {
+    width: 100%;
+    height: 250px;
+}
+
+.row4 p,
+h2 {
+    margin-top: 10px;
+}
+
+.cn-5,.cn-6 {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+}
+
+.if {
+    width: 900px;
+    height: 500px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.footer {
+    background-color: gray;
+    padding: 100px 15%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 120%;
+}
+
+
+
+#num {
+    margin-bottom: 5px;
+    font-size: 85%;
+}
+
+.ad h3,
+.num h3 {
+    margin-top: 9px;
+    margin-bottom: 4px;
+}
+
+.fre ul {
+    list-style-type: none;
+}
+
+.fre a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    padding: 2px 10px;
+}
+
+.fre li {
+    margin-top: 9px;
+}
+
+.fre a:hover {
+    color: white;
+}
+
+.service {
+    padding: 20px;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.service .ser-item {
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.service .ser-item img {
+    width: 90%;
+    height: 250px;
+    margin-top: 20px;
+
+}
+
+.about .abimage {
+    width: 100%;
+    background-image: url("image/aboutim.jpeg");
+    text-align: center;
+    padding: 150px 30%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 150%;
+}
+
+.abrow {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(212, 226, 223);
+}
+
+.abcn {
+
+    padding: 30px 20%;
+    border-radius: 10px;
+    line-height: 140%;
+    font-size: 120%;
+}
+
+.abcn h2 {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.contactmain .contactimage{
+    width: 100%;
+    background-image: url("image/conim.jpeg");
+    text-align: center;
+    padding: 150px 30%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 150%;
+}
+.contact {
+    padding: 50px;
+}
+
+.contact form {
+    background-color: #f2f2f2;
+    padding: 30px;
+    font-size: 130%;
+    line-height: 140%;
+    text-align: center;
+}
+
+.lb {
+    width: 30%;
+    display: inline-block;
+
+    text-align: left;
+    padding-left: 13%;
+}
+
+.in {
+    width: 50%;
+    padding: 5px;
+    height: 30px;
+
+}
+
+.lb,
+.in,
+#fbt {
+    margin-top: 30px;
+}
+
+#fbt {
+    padding: 10px;
+    width: 60%;
+    background-color: rgb(239, 52, 52);
+    color: white;
+    font-size: 120%;
+}
+
+#fbt:hover {
+    background-color: rgb(0, 211, 211);
+    color: black;
+}
+
+@media screen and (max-width:800px) {
+    .tog {
+        display: flex;
+
+    }
+
+    .nav {
+        display: block;
+        height: auto;
+        position:static;
+        
+
+    }
+    .title a{
+        color: rgb(255, 255, 255);
+        font-size: 98%;
+    }
+    .tog {
+        position: absolute;
+        top: 17px;
+        right: -20px;
+
+    }
+
+    .list {
+        flex-direction: column;
+        
+        margin-top: 28px;
+        text-align: center;
+        gap: 0;
+        display: none;
+        transition: 2s;
+
+    }
+
+    .list .item {
+        width: 100%;
+        background-color: rgb(90, 195, 14);
+
+
+
+    }
+
+    .item a {
+        width: 100%;
+        background-color: black;
+        display: block;
+        padding: 8px;
+    }
+
+    .item a:hover {
+        background-color: aquamarine;
+        color: brown;
+    }
+
+    .cn-1{
+        height: 200px;
+    }
+    .cn-1 .te{
+        font-size: 300%;
+    }
+    .row3 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .im3o {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .tx3 {
+        padding-top: 30px;
+        text-align:center;
+    }
+
+    .row4fl {
+        flex-direction: column;
+    }
+    .row4 img{
+        height: 180px;
+    }
+    .abcn p{
+        font-size: 90%;
+    }
+    .if {
+        width: 300px;
+        height: 180px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding: 15px 10%;
+        font-size: 80%;
+    }
+    .ad h3,
+.num h3 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+    .fre {
+        margin-left: -70px;
+        margin-top: 3px;
+    }
+    .fre li{
+        margin-top: 4px;
+    }
+    .service {
+        flex-direction: column;
+    }
+    .service .ser-item img{
+        height:150px;
+    }
+    .about .abimage {
+        padding: 0px;
+        padding-bottom: 30px;
+        padding-top: 90px;
+
+
+        font-size: 100%;
+
+    }
+    .abrow{
+        padding: 20px;
+    }.abcn{
+
+        padding: 10px;
+        text-align: center;
+    }
+    .contactmain .contactimage{
+        padding: 50px 2px;
+    }
+    .lb,.in{
+        width: 100%;
+    }
+    .lb{padding-left: 5px;}
+    .in{
+        margin-top: 5px;
+    }
+    #fbt{
+        font-size: 100%;
+    }
+    .togle{
+        display: flex;
+    }
+    
+}
